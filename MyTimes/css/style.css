@@ -1,0 +1,128 @@
+html {
+    color: black;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    border: black 2px;
+    width: 100%;
+}
+h1 {
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size:  40px;
+        
+}
+#logo {
+    color: mediumaquamarine; 
+    align-items: center;
+    width: 1000px;
+}
+header.span {
+    align-items: space-around;
+    
+}
+nav {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 50 px;
+}
+
+div {
+    color: black;
+    font-size: 14px;
+    border: black solid 2px;
+}
+
+h2 {
+    font-size: 25px; 
+    display: flex;
+    align-items: flex-end;   
+}
+
+.content {
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.lead-article-image {
+    background-image: url("../resources/img-story-main.png");
+    background-size: cover;
+    display: flex;
+}
+.lead-article {
+    display: flex;
+    border: black 1px; 
+}
+.column-left  { 
+    display: flex;
+    flex-direction: column;
+    border: black 2px;
+    max-width: 630px;
+    margin: 8px;
+}
+
+.column-middle {
+    display: flex;
+    max-width: 300px;
+    display: flex;
+    margin: 8px;
+    border: black 2px;
+    flex-direction: column;
+}
+.column-right {
+    max-width: 240px; 
+    display: flex;
+    margin: 6px;
+    border: black 10 20px;
+    flex-direction: column;
+}
+
+.earth-backwards {
+    color: white;
+    background-image: url("../resources/img-story-2.png");
+}
+
+.cameras {
+    color: white;
+    background-image: url("../resources/img-story-3.png");
+}
+
+.burger {
+    background-image: url("../resources/");
+}
+
+.bites {
+    background-image: url("../resources/img-news-bite.png");
+}
+.cameras.h2
+.fall-cancelled.h2
+.bites.h2 {
+    color: white;
+    
+}
+
+.narrative {
+    font-family: Georgia:
+    color: black;
+    font-size: 17px; 
+}
+
+footer {
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background-color: mediumaquamarine;
+    height: 300px;
+    flex-direction: row;
+    display: inline-flex;
+    position: fixed;
+}
