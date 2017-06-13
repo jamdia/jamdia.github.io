@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>My Times</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
@@ -8,6 +9,7 @@
     
 <header>
     <!--  logo  --> 
+    
     <div class="logo">
       <img src="./resources/img-myt-logo.jpg" alt="my times logo">
     <span>My Times</span>
@@ -32,24 +34,22 @@
 <div class="maincontent">
 <!--     First news column -->
     <div class="column large">
-        <div class="lead imagestory">
-            <span>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, &ldquo;Feeling Funny.&rdquo; </span>
-        </div>   
-        <article>
-            <p class="narrative">
-            MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.
-            </p>
-        </article>
-         </div>  
-   
+
+      <div class="lead imagestory">
+        <h2>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, &ldquo;Feeling Funny.&rdquo; </h2>
+          
+        <p class="narrative">
+        MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.
+        </p>
+        </div>      
+
       <div class="group">
         <article>
           <div class="textstory">  
             <span>Orca Spends Vacation at Land World Puget</span>
   
             <p class="narrative">
-            Puget, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus.  Sed congue odio vitae malesuada rhoncus.  Integer vitae nisi pulvinar ante accumsan...</p>
-            </div>
+            Puget, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus.  Sed congue odio vitae malesuada rhoncus.  Integer vitae nisi pulvinar ante accumsan...</p>            </div>
         </article>
         <article>
           <div class="imagestory earth">
@@ -72,7 +72,9 @@
            </div>
        </article>
     </div>
-</div>            
+
+</div>           
+        
 <!--  Second news column  -->         
     <div class="column middle">
       <article>  
@@ -85,43 +87,63 @@
         
         <article>
           <div class="imagestory cats">
-            <span>Cats in Control-Is It a Thing?</span>
-   
-            <p class="narrative">BROOKLYN, NY- In molestie nulla sodales sit amet. Proin vulputate, ipsum porta aliquam commodo, nunc nibh tincidunt lorem, vel consectetur neque mi vel neque. Mauris ultricies, nulla scelerisque sollicitudin lobortis, dui est sodales sapien, a vestibulum velit diam eget felis. Vivamus dignissim lacinia dolor, quis commodo tellus pellentesque in.</p>
+            <span>Cats in Control - Is It a Thing?</span>
           </div>
+              <p class="narrative">BROOKLYN, NY- In molestie nulla sodales sit amet. Proin vulputate, ipsum porta aliquam commodo, nunc nibh tincidunt lorem, vel consectetur neque mi vel neque. Mauris ultricies, nulla scelerisque sollicitudin lobortis, dui est sodales sapien, a vestibulum velit diam eget felis. Vivamus dignissim lacinia dolor, quis commodo tellus pellentesque in.</p>     
         </article>
     </div>    
 <!--  Third News column -->         
 <div class="column small">
     <img src="resources/img-news-bite.png">
     <article>
-      <span>News Bites</span> 
-        <div class="newsbites">   
+      <h3>News Bites</h3> 
+        <div class="newsbites">  
+        <span>    
           <a href="#">Cat Emoji Goes Viral</a>
+        </span>
+        <span>    
           <a href="#">Buy Youtube Views</a>
+        </span>
+        <span> 
           <a href="#">Home Business Advertising Ideas</a>
+        </span>
+        <span>     
           <a href="#">Advertising Internet Online</a>
-          <a href="#">Illustration in Marketing Materials</a>
+        </span>
+        <span> 
+          <a href="#">Illustration in Marketing Materials</a>  
+        </span>
+        <span> 
           <a href="#">Finally a Top Secret Way You Can</a>    
-  
+        </span>
+            
         </div>
     </article>
  </div>
-        
+</div>            
 </section>    
               
  <footer>
-     <span>
-         <p>MY Times          |</p>
-         <nav>
+     <div class="row">
+       <div class="mytimes"> 
+           <a href="./index.html">My Times</a>
+       </div> 
+        <nav>
+        <span>     
             <a href="#world">World</a>
+        </span>
+        <span>  
             <a href="#us">U.S.</a>
+       </span>
+       <span> 
             <a href="#tech">Tech</a>
+       </span>
+       <span> 
             <a href="#science">Science</a>
+            </span>       
          </nav>
-    
-     </span>   
-     
+     </div>     
+ <p> C 2017, My Times (A Division of Codeacademy bite)</p>    
 </footer>   
           
 </body> 
